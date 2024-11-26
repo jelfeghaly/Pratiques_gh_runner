@@ -3,7 +3,7 @@ name: Deploy UAT Environment
 on:
   push:
     branches:
-      - uat  # Ce workflow s'exécute uniquement pour la branche uat
+      - UAT  # Ce workflow s'exécute uniquement pour la branche uat
 
 jobs:
   deploy:
