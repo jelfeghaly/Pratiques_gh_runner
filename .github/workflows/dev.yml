@@ -16,6 +16,6 @@ jobs:
       - name: Deploy to GitHub Pages (Dev)  # Étape pour déployer sur GitHub Pages
         uses: peaceiris/actions-gh-pages@v3  # Utilise l'action pour GitHub Pages
         with:
-          github_token: ${{ secrets.GH_TOKEN }}  # Utilise le token GitHub pour autoriser le déploiement
+          github_token: ${{ secrets.GITHUB_TOKEN }}  # Utilise le token GitHub pour autoriser le déploiement
           publish_dir: ./  # Spécifie le répertoire source à publier, ici la racine du dépôt
           destination_dir: dev  # Déploie les fichiers dans le dossier /dev dans gh-pages
