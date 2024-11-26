@@ -3,7 +3,7 @@ name: Deploy Develop final
 on:
   push:
     branches:
-      - dev  # Ce workflow s'exécute uniquement pour la branche dev
+      - DEV  # Ce workflow s'exécute uniquement pour la branche dev
 
 jobs:
   deploy:
